@@ -115,14 +115,26 @@ a:hover {
 		flex-direction: column;
 		align-items: flex-start;
 	}
+	.container {
+		max-width: 1166px;
+		border: none;
+		margin: 0 auto;
+	}
 	.personal-info {
 		width: 100%;
 		order: -1;
+		padding-right: 15px;
+		border-right: none;
 	}
 	.professional-info {
 		width: 100%;
+		padding-right: 15px;
+	}
+	.references .inline {
+		flex-direction: column;
+		justify-content: space-between;
 	}
 	.statement {
-		padding: 10px 60px 10px 0;
+		padding: 10px 15px 10px 0;
 	}
 }
