@@ -29,6 +29,7 @@ a:hover {
 /* containers */
 .container {
 	max-width: 1166px;
+	border: .75px solid #808080;
 	margin: 0 auto;
 }
 .body-sections {
@@ -74,6 +75,7 @@ a:hover {
 	width: 300px;
 	height: 100%;
 	background-color: #E0E0E0;
+	border-right: .75px solid #808080;
 }
 .personal-title {
 	font-weight: bold;
@@ -122,6 +124,5 @@ a:hover {
 	}
 	.statement {
 		padding: 10px 60px 10px 0;
-
 	}
 }
