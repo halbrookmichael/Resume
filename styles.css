@@ -66,7 +66,7 @@ a:hover {
 .statement {
 	font-size: 14px;
 	max-width: 100%;
-	padding-right: 300px;
+	padding: 10px 300px 10px 0;
 }
 
 /* personal info */
@@ -115,5 +115,13 @@ a:hover {
 	}
 	.personal-info {
 		width: 100%;
+		order: -1;
+	}
+	.professional-info {
+		width: 100%;
+	}
+	.statement {
+		padding: 10px 60px 10px 0;
+
 	}
 }
