@@ -60,7 +60,13 @@ a:hover {
 	border-bottom: .75px solid #808080;
 }
 .title {
+	font-weight: bold;
 	margin: 5px 0;
+}
+.statement {
+	font-size: 14px;
+	max-width: 100%;
+	padding-right: 300px;
 }
 
 /* personal info */
