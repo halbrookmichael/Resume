@@ -74,7 +74,11 @@ a:hover {
 	background-color: #fff;
 	border-bottom: .75px solid #fff;
 }
+h1 {
+	color: #118ab2;
+}
 .title {
+	font-size: 22px;
 	font-weight: bold;
 	margin: 5px 0;
 }
