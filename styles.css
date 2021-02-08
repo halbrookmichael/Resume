@@ -14,9 +14,17 @@ h3 {
 	margin: 0
 }
 ul {
-	list-style-type: square;
+	list-style: none;
 	padding-left: 20px;
 	margin: 5px 0 20px;
+}
+ul li:before {
+  	content: "\25A0";  
+  	color: #118ab2; 
+  	font-weight: bold;
+  	display: inline-block;
+  	width: 1em;
+  	margin-left: -1em;
 }
 li {
 	margin-bottom: 10px;
@@ -51,6 +59,7 @@ a:hover {
 	width: 100%;
 	font-size: 16px;
 	margin-bottom: 10px;
+	padding-bottom: 10px;
 	border-bottom: .75px solid #118ab2;
 }
 .experience,
