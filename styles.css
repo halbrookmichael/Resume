@@ -5,6 +5,7 @@ body {
 	box-sizing: border-box;
 	font-size: 15px;
 	font-family: 'Raleway', sans-serif;
+	color: #565656;
 }
 p,
 h1,
@@ -22,14 +23,15 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: lightseagreen;
+	color: #118ab2;
+	font-weight: bold;
 	text-decoration: underline;
 }
 
 /* containers */
 .container {
 	max-width: 1166px;
-	border: .75px solid #808080;
+	border: .75px solid #565656;
 	margin: 0 auto;
 }
 .body-sections {
@@ -37,14 +39,14 @@ a:hover {
 	align-items: flex-start;
 }
 .section {
-	width: 100%;
+	/* width: 100%; */
 	padding: 10px 15px;
 }
 .section-title {
 	width: 100%;
 	font-size: 16px;
 	margin-bottom: 10px;
-	border-bottom: .75px solid #808080;
+	border-bottom: .75px solid #565656;
 }
 .experience,
 .education,
@@ -55,10 +57,9 @@ a:hover {
 
 /* header */
 .header {
-	color: #fff;
 	padding: 5px 15px;
-	background-color: #202020;
-	border-bottom: .75px solid #808080;
+	background-color: #fff;
+	border-bottom: .75px solid #fff;
 }
 .title {
 	font-weight: bold;
@@ -74,7 +75,11 @@ a:hover {
 .personal-info {
 	width: 300px;
 	height: 100%;
-	background-color: #E0E0E0;
+	background-color: #118ab2;
+	color: #fff;
+}
+.personal-info .section-title {
+	border-bottom: .75px solid #fff;
 }
 .personal-title {
 	font-weight: bold;
@@ -88,7 +93,7 @@ a:hover {
 
 /* professional info */
 .professional-info {
-	width: 100%;
+	/* width: 100%; */
 }
 .employer {
 	font-size: 16px;
@@ -120,14 +125,14 @@ a:hover {
 		margin: 0 auto;
 	}
 	.personal-info {
-		width: 100%;
+		/* width: 100%; */
 		order: -1;
 		padding-right: 15px;
 		border-right: none;
 	}
 	.professional-info {
-		width: 100%;
-		padding-right: 15px;
+		/* width: 100%; */
+		/* padding-right: 15px; */
 	}
 	.references .inline {
 		flex-direction: column;
