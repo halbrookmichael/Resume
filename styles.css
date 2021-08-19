@@ -40,6 +40,9 @@ a:hover {
 	text-decoration: underline;
 	transition: all 0.3s ease;
 }
+a.link-hove-alt:hover {
+  color: #fff;
+}
 
 /* containers */
 .container {
