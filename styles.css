@@ -135,6 +135,11 @@ h1 {
 	font-size: 15px;
 }
 
+/* about */
+.about p {
+	margin-bottom: 10px;
+}
+
 /* breakpoints */
 @media (max-width: 960px) {
 	.body-sections {
