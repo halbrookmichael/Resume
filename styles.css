@@ -67,7 +67,9 @@ a.link-hover-alt:hover {
 }
 .experience,
 .education,
-.references {
+.references,
+.work,
+.about {
 	margin-bottom: 40px;
 }
 
